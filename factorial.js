@@ -59,6 +59,17 @@ function computeFactorial(){
 function exit(){
     console.log(exitProgram);
 }
+function backToMenu(){
+    console.log("----------------");
+    console.log("1. Back to menu");
+    console.log("2. Exit");
 
+    rl.question("What would you like to do next? (1-2) ", (backToMenuChoice)=>{
+           
+        if (backToMenuChoice==="1"){
+
+        }
+})
+}
 mainMenu();
 
