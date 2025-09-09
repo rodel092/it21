@@ -47,3 +47,5 @@ rl.question("Enter your choice (1-3"); ", choice =>";{
 
 }
 
+mainMenu();
+
