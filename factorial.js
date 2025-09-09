@@ -30,7 +30,7 @@ console.log("2. Factorial");
 console.log("3. Exit Application");
 console.log("----------------");
 
-rl.question("Enter your choice (1-3"); ", choice =>";{
+rl.question("Enter your choice (1-3"); ", choice =>";
     console.log(choice);
 
    if (choice === "1"){
@@ -38,17 +38,26 @@ rl.question("Enter your choice (1-3"); ", choice =>";{
      sayHello();
    } else if (choice === "2"){
     console.log("Factorial");
+    computeFactorial();
    } else if (choice === "3"){
     console.log("Exiting Application");
+    exitProgram();
    } else {
     console.log("Invalid Choice. Please Try Again");
    }
 
 
-
+function mainMenu(){
+    console.log();
 }
 function sayhello(){
-console.log(sayHello);
+    console.log(sayHello);
+}
+function computeFactorial(){
+    console.log(computeFactorial);
+}
+function exit(){
+    console.log(exitProgram);
 }
 
 mainMenu();
