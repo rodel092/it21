@@ -35,6 +35,7 @@ rl.question("Enter your choice (1-3"); ", choice =>";{
 
    if (choice === "1"){
     console.log("Hello");
+     sayHello();
    } else if (choice === "2"){
     console.log("Factorial");
    } else if (choice === "3"){
@@ -45,6 +46,9 @@ rl.question("Enter your choice (1-3"); ", choice =>";{
 
 
 
+}
+function sayhello(){
+console.log(sayHello);
 }
 
 mainMenu();
